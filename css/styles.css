@@ -1,7 +1,6 @@
 /*
-Design by Metamorphosis Design
-http://www.metamorphozis.com
-Released for free under a Creative Commons Attribution 2.5 License
+Design by Guru Computers Ltd
+http://www.gurucomputers.co.uk
 */
 
 *
@@ -17,7 +16,7 @@ border: 0px;
 
 body{
 	font: 12px Arial, Helvetica, sans-serif;
-	background: url(images/bg.gif);
+	background: url(../images/bg.gif);
 	line-height: 18px;
 	color: #585858;
 }
@@ -27,7 +26,7 @@ body{
 	width: 940px;
 	margin: 0px auto;
 	padding: 0px 45px 0px 45px;
-	background:url(images/main.png) right repeat-y;}
+	background:url(../images/main.png) right repeat-y;}
 
 #header {
 	height: 102px;
@@ -69,7 +68,7 @@ body{
 	height: 42px;
 	width: 517px;
 	padding-left: 0px;
-	background: url(images/buttons.png) left top no-repeat;
+	background: url(../images/buttons.png) left top no-repeat;
 	padding: 38px 0px 0px 0px;
 	float: right;
 }
@@ -96,17 +95,17 @@ body{
 			float: left;}
 
 #buttons .but:hover {
-	background: url(images/but_hover.png) center center no-repeat;
+	background: url(../images/but_hover.png) center center no-repeat;
 	color:#038760;
 	text-decoration: underline;
 	}
 	
-.but_t {background: url(images/but_hover.gif) center bottom no-repeat;}
+.but_t {background: url(../images/but_hover.gif) center bottom no-repeat;}
 
 
 
 .top { height: 349px;
-		background: url(images/top.jpg) left top no-repeat;
+		background: url(../images/top.jpg) left top no-repeat;
 		width: 940px;
 }
 		
@@ -118,7 +117,7 @@ body{
 .top_right { float: right;
 			width:284px;
 			height: 243px;
-			background: url(images/top_right.png);
+			background: url(../images/top_right.png);
 			padding: 30px 40px 20px 40px;}
 
 		
@@ -127,19 +126,19 @@ body{
 		vertical-align:top;
 		padding: 290px 0px 0px 40px;}
 
-.circl { background: url(images/circl.png) left top no-repeat;
+.circl { background: url(../images/circl.png) left top no-repeat;
 	height: 19px;
 	width: 19px;
 	margin: 0px 10px 0px 0px;
 	float: left;
 	display:block;}
 .circl:hover {
-	background:url(images/circl_hov.png) left top no-repeat; }
+	background:url(../images/circl_hov.png) left top no-repeat; }
 
 
 
 #content{
-	background: url(images/content.png);
+	background: url(../images/content.png);
 	padding: 0px 0px 0px 0px;
 }
 
@@ -220,7 +219,7 @@ body{
 
 
 #bottom {
-	background: url(images/bottom.gif) left top repeat-y;
+	background: url(../images/bottom.gif) left top repeat-y;
 	color: #585858;
 }
 
@@ -262,7 +261,7 @@ body{
 
 .spis_bot li {
 	padding: 7px 0px 0px 18px;
-	background: url(images/spis_bot.gif) 0px 12px no-repeat;
+	background: url(../images/spis_bot.gif) 0px 12px no-repeat;
 	}
 	
 .spis_bot a {
@@ -319,7 +318,7 @@ td { height: 25px;}
 	color: #000000;
 	text-align: center;
 	padding: 13px 0px 0px 0px;
-	background: url(images/footer.jpg) 0px 15px no-repeat;
+	background: url(../images/footer.jpg) 0px 15px no-repeat;
 }
 
 #footer a{
@@ -353,35 +352,35 @@ scroll styles here
 .scrollable .items .item { overflow:hidden;}
 .scrollable .items .item p { line-height:16px;}
 .navi { width:auto; height:20px;  margin:5px 0; padding-left: 420px;} 
-.navi a { width: 20px; cursor:pointer; height: 20px; float:left; margin:0 0 0 3px; background:url(images/circl.png) no-repeat scroll top; display:block; font-size:1px;} 
-.navi a:hover, .navi a.active { background-position:left top; margin:0 0 0 3px;  background:url(images/circl_hov.png) no-repeat scroll top}
+.navi a { width: 20px; cursor:pointer; height: 20px; float:left; margin:0 0 0 3px; background:url(../images/circl.png) no-repeat scroll top; display:block; font-size:1px;} 
+.navi a:hover, .navi a.active { background-position:left top; margin:0 0 0 3px;  background:url(../images/circl_hov.png) no-repeat scroll top}
 
 .header1
 {
 width: 940px; height: 439px;
 padding-top: 90px;
-background: url(images/top.jpg) no-repeat;
+background: url(../images/top.jpg) no-repeat;
 }
 
 .header2
 {
 width: 940px; height: 439px;
 padding-top: 90px;
-background: url(images/header2.jpg) no-repeat;
+background: url(../images/header2.jpg) no-repeat;
 }
 
 .header3
 {
 width: 940px; height: 439px;
 padding-top: 90px;
-background: url(images/header3.jpg) no-repeat;
+background: url(../images/header3.jpg) no-repeat;
 }
 
 .header4
 {
 width: 940px; height: 439px;
 padding-top: 90px;
-background: url(images/header4.jpg) no-repeat;
+background: url(../images/header4.jpg) no-repeat;
 }
 
 
