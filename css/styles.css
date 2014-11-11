@@ -1,0 +1,396 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+img
+{
+border: 0px;
+}
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	background: url(images/bg.gif);
+	line-height: 18px;
+	color: #585858;
+}
+
+	
+#main {
+	width: 940px;
+	margin: 0px auto;
+	padding: 0px 45px 0px 45px;
+	background:url(images/main.png) right repeat-y;}
+
+#header {
+	height: 102px;
+}
+
+.line { border-top: 1px solid #585858;}
+
+#logo {	
+		padding: 25px 0px 0px 0px;
+		width: 250px;
+		float:left;
+}
+
+#logo H2 a{
+
+		font-family: Arial, Helvetica, sans-serif;
+		color:#038760;
+		font-size:18px;
+		font-weight: bold;
+		background: no-repeat;
+		}
+
+#logo a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #585858;
+	font-weight: bold;
+}
+	
+#logo H2 a{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:100;
+	text-align:left;
+}
+
+#buttons{
+	text-align:center;
+	height: 42px;
+	width: 517px;
+	padding-left: 0px;
+	background: url(images/buttons.png) left top no-repeat;
+	padding: 38px 0px 0px 0px;
+	float: right;
+}
+
+#buttons a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #000000;
+	text-align: center;
+	height: 30px;
+	text-transform: uppercase;
+	
+}
+
+.but {
+}
+
+.but_razd { height: 10px;
+			width: 30px;
+			float: left;}
+
+#buttons .but:hover {
+	background: url(images/but_hover.png) center center no-repeat;
+	color:#038760;
+	text-decoration: underline;
+	}
+	
+.but_t {background: url(images/but_hover.gif) center bottom no-repeat;}
+
+
+
+.top { height: 349px;
+		background: url(images/top.jpg) left top no-repeat;
+		width: 940px;
+}
+		
+.top_left { float: left;
+			width: 576px;
+			height: 240px;
+			}
+			
+.top_right { float: right;
+			width:284px;
+			height: 243px;
+			background: url(images/top_right.png);
+			padding: 30px 40px 20px 40px;}
+
+		
+.circl_all {
+		height: 19px; 
+		vertical-align:top;
+		padding: 290px 0px 0px 40px;}
+
+.circl { background: url(images/circl.png) left top no-repeat;
+	height: 19px;
+	width: 19px;
+	margin: 0px 10px 0px 0px;
+	float: left;
+	display:block;}
+.circl:hover {
+	background:url(images/circl_hov.png) left top no-repeat; }
+
+
+
+#content{
+	background: url(images/content.png);
+	padding: 0px 0px 0px 0px;
+}
+
+
+.box {
+	float: left;
+	width: 172px;
+	height: 170px;
+	border: 1px solid #585858;
+	padding: 15px 15px 15px 15px;
+	}
+
+
+.img_l {	float:left;
+		margin: 3px 14px 3px 0px;
+}
+
+.img_r {	float: right;
+		margin: 9px 10px 3px 10px;
+}
+
+
+ h1{
+	font-size:24px;
+	font-weight: 100;
+	color: #ffffff;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	line-height:normal;
+}
+
+ h2{
+	font-size:18px;
+	font-weight: 100;
+	color: #000000;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	line-height:normal;
+}
+
+ h3{
+	font-size:24px;
+	font-weight: 100;
+	color: #000000;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	line-height:normal;
+}
+
+.more {
+	font-size:12px;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.more:hover {
+	font-size:12px;
+	text-decoration: none;
+}
+
+.more2 {
+	font-size:12px;
+	color: #038760;
+	text-decoration: underline;
+}
+
+.more2:hover {
+	font-size:12px;
+	text-decoration: none;
+}
+
+.span_cont { color: #038760;
+			font-weight: bold; }
+
+
+
+
+
+
+#bottom {
+	background: url(images/bottom.gif) left top repeat-y;
+	color: #585858;
+}
+
+#bottom h1 { 
+	color: #000000;
+	font-size: 18px;
+	font-weight: 100;
+	text-align: left;
+	padding: 15px 0px 0px 0px;
+			}
+
+#b_col1 {
+	width: 144px;
+	float: left;
+	margin-left: 16px;
+}
+#b_col2 {
+	width: 208px;
+	float: left;
+	margin-left: 73px;
+}
+#b_col3 {
+	width: 158px;
+	float: left;
+	margin-left: 92px;
+	text-align: left;
+}
+
+#b_col4 {
+	width: 165px;
+	float: left;
+	margin-left: 80px;
+	text-align: left;
+}
+
+.spis_bot {
+	list-style:none;
+	padding: 0px 0px 0px 0px;}
+
+.spis_bot li {
+	padding: 7px 0px 0px 18px;
+	background: url(images/spis_bot.gif) 0px 12px no-repeat;
+	}
+	
+.spis_bot a {
+	color:#585858;
+	text-decoration:none;
+	font-weight: 100;
+	display: block;
+	font-weight: 100;}
+.spis_bot a:hover {
+	text-decoration: underline;
+	}
+	
+.fu_i {
+	padding: 0px 14px 0px 0px;
+	vertical-align: middle ;
+}
+
+.spis_fu {
+	list-style:none;
+	padding: 0px 0px 0px 0px;}
+
+.spis_fu li {
+	padding: 8px 0px 2px 0px;
+	background: none;
+	}
+	
+.spis_fu li a {
+	color:#585858;
+	text-decoration: none;
+	}
+	
+.spis_fu li a:hover {
+	text-decoration: underline;
+}
+
+
+.a_qn {
+	font-size:12px;
+	color: #038760;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.a_qn:hover {
+	font-size:12px;
+	text-decoration: underline;
+}
+
+td { height: 25px;}
+
+#footer{
+	height: 47px;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+	padding: 13px 0px 0px 0px;
+	background: url(images/footer.jpg) 0px 15px no-repeat;
+}
+
+#footer a{
+	color: #000000;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	color: #000000;
+	font-size: 10px;
+	text-decoration: underline;
+}
+
+.lh {
+	line-height: 22px;
+}
+
+
+/*
+scroll styles here
+*/
+
+.item { width: 940px; height: 439px;}
+.item img {float:left;}
+.item h2 { border:none; margin-bottom:15px;}
+
+.scrollable { position:relative; overflow:hidden; width: 940px; height: 439px;} 
+.scrollable .items { width:20000em; position:absolute;}
+.scrollable .items div { float:left;} 
+.scrollable .items .item { overflow:hidden;}
+.scrollable .items .item p { line-height:16px;}
+.navi { width:auto; height:20px;  margin:5px 0; padding-left: 420px;} 
+.navi a { width: 20px; cursor:pointer; height: 20px; float:left; margin:0 0 0 3px; background:url(images/circl.png) no-repeat scroll top; display:block; font-size:1px;} 
+.navi a:hover, .navi a.active { background-position:left top; margin:0 0 0 3px;  background:url(images/circl_hov.png) no-repeat scroll top}
+
+.header1
+{
+width: 940px; height: 439px;
+padding-top: 90px;
+background: url(images/top.jpg) no-repeat;
+}
+
+.header2
+{
+width: 940px; height: 439px;
+padding-top: 90px;
+background: url(images/header2.jpg) no-repeat;
+}
+
+.header3
+{
+width: 940px; height: 439px;
+padding-top: 90px;
+background: url(images/header3.jpg) no-repeat;
+}
+
+.header4
+{
+width: 940px; height: 439px;
+padding-top: 90px;
+background: url(images/header4.jpg) no-repeat;
+}
+
+
+/* ------------------------------------------------------------------------
+DO NOT CHANGE
+------------------------------------------------------------------------- */
+
+
+div.pp_overlay {background: #000;display: none;left: 0;position: absolute;top: 0;width: 100%;z-index: 9500;}
+div.pp_pic_holder {display: none;position: absolute;width: 100px;z-index: 10000;}
+
+
