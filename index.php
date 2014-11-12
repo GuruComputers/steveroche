@@ -1,3 +1,4 @@
+<?php $page="home"; ?>
 <!DOCTYPE html>
 <html>
 <?php include("parts/head.php"); ?>
