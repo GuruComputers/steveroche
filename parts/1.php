@@ -1,3 +1,4 @@
+<div id="header">
 <header>
 <a href="index.php">
 	<img src="img/logo.png" id="logo" alt="S.M. Roche Logo">
@@ -38,3 +39,4 @@
 </ul>
 </nav>
 </header>
+</div>

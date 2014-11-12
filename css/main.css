@@ -1,12 +1,15 @@
 /********************************************************
 CSS coded by Dave & Neil Wakely
 (C) Guru Computers Ltd
-
-Last updated by :- Neil Wakely
-Last Update :- Created Basic settings
-Date of last update :- 12/11/2014
 ********************************************************/
 
+
+/************************************************
+GENERAL
+
+Last updated by :- Neil Wakely
+Date of last update :- 12/11/2014
+************************************************/
 body {
 	background-image: url("../img/bg.gif");
 	background-color: #282827;
@@ -18,7 +21,22 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	}
+	
+a {
+	text-decoration: none;
+	color: #000;
+}
 
+a:hover, a.selected {
+	color: red;
+}
+
+/************************************************
+HEADER
+
+Last updated by :- Neil Wakely
+Date of last update :- 12/11/2014
+************************************************/
 header {
 	height: 100px;
 }
@@ -30,17 +48,11 @@ header {
 	padding: 10px 10px 10px 10px;
 }
 
-a {
-	text-decoration: none;
-	color: #000;
-}
-
-a:hover, a.selected {
-	color: red;
-}
-
 /************************************************
 NAVIGATION
+
+Last updated by :- Neil Wakely
+Date of last update :- 12/11/2014
 ************************************************/
 nav {
 	text-align: right;

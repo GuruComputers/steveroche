@@ -1,6 +1,6 @@
 <head>
 	<meta charset="utf-8">
-	<title>Neil Wakely | Developer</title>
+	<title>S.M. Roche</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link href='http://fonts.googleapis.com/css?family=Lobster|Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/main.css">
