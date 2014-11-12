@@ -1,6 +1,6 @@
 <header>
-<a href="index.php" id="logo">
-<img src="img/logo.png" alt="S.M. Roche Logo">
+<a href="index.php">
+	<img src="img/logo.png" id="logo" alt="S.M. Roche Logo">
 </a>
 <nav>
 <ul>
