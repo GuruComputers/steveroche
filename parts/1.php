@@ -1,3 +1,9 @@
+<header>
+<a href="index.php" id="logo">
+<img src="img/logo.png" alt="S.M. Roche Logo">
+</a>
+<nav>
+<ul>
 <?php
 	if ($page == "home") {
 		echo '<li><a href="index.php" class="selected">Home</a></li>';
@@ -29,3 +35,6 @@
 		echo '<li><a href="contact.php">Contact</a></li>';
 	}
 ?>
+</ul>
+</nav>
+</header>
