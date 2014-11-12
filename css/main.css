@@ -42,13 +42,13 @@ Last updated by :- Neil Wakely
 Date of last update :- 12/11/2014
 ************************************************/
 header {
-	height: 100px;
+	height: 120px;
 }
 
 #logo {
 	float: left;
 	width: 300px;
-	height: 80px;
+	height: 100px;
 	padding: 10px 10px 10px 10px;
 }
 
@@ -85,4 +85,11 @@ Date of last update :- 12/11/2014
 ************************************************/
 #copyright {
 	text-align: center;
+}
+
+#guru {
+	color: blue;
+}
+#guru:hover {
+	color: red;
 }
