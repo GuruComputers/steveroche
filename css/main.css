@@ -12,3 +12,16 @@ Date of last update :- 12/11/2014
 	height: 80px;
 	margin: 10px 0 10px 10px;
 }
+
+body {
+	background-image: url("../img/bg.gif");
+	/* background-color: #282827; */
+}
+
+#wrapper {
+	max-width: 940px;
+	height: 100%;
+	background: white;
+	margin-left: auto ;
+	margin-right: auto ;
+}

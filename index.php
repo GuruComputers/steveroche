@@ -2,6 +2,7 @@
 <html>
 <?php include("parts/head.php"); ?>
 <body>
+<div id="wrapper">
 <?php include("parts/1.php"); ?>
 <?php include("parts/2.html"); ?>
 <?php include("parts/3.html"); ?>
