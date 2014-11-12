@@ -1,6 +1,6 @@
 /********************************************************
 CSS coded by Dave & Neil Wakely
-(C) Guru Computers Ltd
+(C) 2014 Guru Computers Ltd
 ********************************************************/
 
 
@@ -29,6 +29,10 @@ a {
 
 a:hover, a.selected {
 	color: red;
+}
+
+div {
+	background: white;
 }
 
 /************************************************
@@ -71,4 +75,14 @@ nav li {
 
 nav a {
 	padding: 15px 10px;
+}
+
+/************************************************
+COPYRIGHT
+
+Last updated by :- Neil Wakely
+Date of last update :- 12/11/2014
+************************************************/
+#copyright {
+	text-align: center;
 }
