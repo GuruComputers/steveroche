@@ -93,6 +93,7 @@
 	}
 	echo "</ul>"."\n";
 	echo "</nav>"."\n";
+	echo "<img src=\"img/hr.png\" id=\"hr\">"."\n"; // top hr rule
 	echo "</header>"."\n";
 	echo "</div>"."\n";	
 
@@ -135,6 +136,7 @@
 	Coded by : Neil Wakely
 	***********************************************************************************/
 	echo "<div id=\"copyright\">"."\n";
+	echo "<img src=\"img/hr.png\" id=\"hr\">"."\n"; // bottom hr rule
 	$start=2014;
 	$current=date("Y");
 	$cy="";

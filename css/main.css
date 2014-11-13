@@ -35,6 +35,10 @@ div {
 	background: white;
 }
 
+#hr {
+	max-width: 940px;
+}
+
 /************************************************
 HEADER
 
@@ -43,6 +47,7 @@ Date of last update :- 12/11/2014
 ************************************************/
 header {
 	height: 120px;
+	padding-bottom: 30px;
 }
 
 #logo {
@@ -60,7 +65,7 @@ Date of last update :- 12/11/2014
 ************************************************/
 nav {
 	text-align: right;
-	padding: 40px 0;
+	padding: 60px 0 0 0;
 }
 
 nav ul {
@@ -86,6 +91,29 @@ Date of last update :- 12/11/2014
 .slideshow { 
 	width: 940px; 
 	height: 400px; 
+}
+
+/************************************************
+FOOTER
+
+Last updated by :- Neil Wakely
+Date of last update :- 13/11/2014
+************************************************/
+#footer {
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+#footer ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	width: 100%;
+}
+
+#footer li {
+	padding-right: 5px;
+	display: inline-block;
 }
 
 /************************************************
