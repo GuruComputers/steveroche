@@ -18,6 +18,8 @@
 
 	$photo_count = count($obj["data"]);
 
+	echo "<div class=\"fadein\">";
+
 	for($x=0; $x<$photo_count; $x++){
 
 		$source = $obj["data"][$x]["source"];
@@ -27,6 +29,7 @@
 		echo "</a>";
 	}
 
+	echo "</div>";
 	echo "</div>";
 
 ?>

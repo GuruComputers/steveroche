@@ -93,6 +93,21 @@ Date of last update :- 12/11/2014
 	height: 400px; 
 }
 
+.fadein { 
+	position:relative; 
+	height:332px; 
+	width:500px; 
+	margin:0 auto;
+	background: url("../img/slideshow-bg.png") repeat-x scroll left top transparent;
+	padding: 10px;
+ }
+
+.fadein img { 
+	position:absolute; 
+	left:10px; 
+	top:10px; 
+}
+
 /************************************************
 FOOTER
 
