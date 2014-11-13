@@ -38,7 +38,8 @@
 	echo "<link href=\"http://fonts.googleapis.com/css?family=Lobster|Open+Sans\" rel=\"stylesheet\" type=\"text/css\">"."\n";
 	echo "<link rel=\"stylesheet\" href=\"css/main.css\">"."\n";
 	echo "<link rel=\"stylesheet\" href=\"css/responsive.css\">"."\n";
-
+	echo "<script type=\"text/javascript\" src=\"lib/jquery-1.3.2.min.js\"></script>"."\n"; // Needed for slideshow
+  	echo "<script type=\"text/javascript\" src=\"lib/jquery.tools.js\"></script>"."\n"; // Needed for slideshow
 	echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"."\n";
 	echo "</head>"."\n";
 
