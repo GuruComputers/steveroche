@@ -1,6 +1,6 @@
 <?php
 	echo "<div id =\"footer\">"."\n";
-	echo "<p id=\"contact\">Contact Information</p><br />"."\n";
+	echo "<center><p id=\"contact\">Contact Information</p></center><br />"."\n";
 	echo "<ul>"."\n";
 	echo "<li>Postal Address</li>"."\n";
 	echo "<li><a href=\"tel:\">Phone Number</a></li>"."\n";
