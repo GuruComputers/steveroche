@@ -86,13 +86,14 @@ nav a {
 SLIDESHOW
 
 Last updated by :- Dave Wakely
-Date of last update :- 12/11/2014
+Date of last update :- 13/11/2014
 ************************************************/
 .slideshow { 
 	width: 940px; 
 	height: 400px; 
 }
 
+<<<<<<< HEAD
 .carousel{
     overflow:hidden;
     width:100%;
@@ -118,6 +119,8 @@ Date of last update :- 12/11/2014
     max-width:100%;
 }
 
+=======
+>>>>>>> FETCH_HEAD
 /************************************************
 FOOTER
 

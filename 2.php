@@ -18,8 +18,11 @@
 
 	$photo_count = count($obj["data"]);
 
+<<<<<<< HEAD
 	echo "<div class=\"carousel\">";
 	echo "<ul class=\"panes\">";
+=======
+>>>>>>> FETCH_HEAD
 
 	for($x=0; $x<$photo_count; $x++){
 
@@ -32,7 +35,6 @@
 
 	}
 	echo "</ul>";
-	echo "</div>";
 	echo "</div>";
 
 ?>
