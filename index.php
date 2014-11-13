@@ -1,12 +1,30 @@
 <?php
+	/***********************************************************************************
+	Bespoke customer web site programmed by Dave & Neil Wakely
+	(c) Guru Computers Ltd.
+
+	Customer : S.M. Roche
+	Website : Managed
+	***********************************************************************************/
+
+
+
+
+
+
 	$page="home"; // Main menu link highlight variable
-	/*
-	Normal HTML code echoed output_add_rewrite_var*/
+	/***********************************************************************************
+	Normal HTML code echoed out
+	Coded by : Neil Wakely
+	***********************************************************************************/
 	echo "<!DOCTYPE html>"."\n";
 	echo "<html>"."\n";
-	/*
+
+
+	/***********************************************************************************
 	Head section of HTML code echoed out
-	*/
+	Coded by : Neil Wakely
+	***********************************************************************************/
 	echo "<head>"."\n";
 	echo "<meta charset=\"utf-8\">"."\n";
 	echo "<title>S.M. Roche</title>"."\n";
@@ -16,11 +34,16 @@
 	echo "<link rel=\"stylesheet\" href=\"css/responsive.css\">"."\n";
 	echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"."\n";
 	echo "</head>"."\n";
-	/*
+
+
+	/***********************************************************************************
 	Body of HTML starts here
-	*/
+	Coded by : Neil Wakely
+	***********************************************************************************/
 	echo "<body>"."\n";
 	echo "<div id=\"wrapper\">"."\n"; // Main wrapper declared for page
+
+
 	/***********************************************************************************
 	HEADER 
 	Section : 1
@@ -66,25 +89,40 @@
 	echo "</nav>"."\n";
 	echo "</header>"."\n";
 	echo "</div>"."\n";	
+
+
 	/***********************************************************************************
 	SLIDESHOW
 	Section : 2
 	Coded by : Dave Wakely
 	***********************************************************************************/
 	include("2.php"); // Slideshow
+
+
 	/***********************************************************************************
 	CONTENT MENU 
 	Section : 3
 	Coded by : Dave Wakely
 	***********************************************************************************/
 	include("3.php"); // Content menu
+
+
 	/***********************************************************************************
 	NEWS & CUSTOMER TESTIMONIALS 
 	Section : 4
 	Coded by : Dave Wakely
 	***********************************************************************************/
 	include("4.php"); // News & Customer Testimonials
+
+
+	/***********************************************************************************
+	FOOTER
+	Section : 5
+	Coded by : Neil Wakely
+	***********************************************************************************/
 	include("5.php"); // Footer
+
+
 	/***********************************************************************************
 	Copyright
 	Section : 6
@@ -103,9 +141,12 @@
 	echo "Designed & Hosted by <a href=\"http://gurucomputers.co.uk\" alt=\"guru computers ltd website\" id=\"guru\" target=\"_blank\">Guru Computers Ltd.</a>"."<br />"."\n";
 	echo "&copy"." ".$cy." S.M. Roche"."\n";
 	echo "</div>"."\n"."\n";
-	/*
+
+	
+	/***********************************************************************************
 	End of normal HTML code to close of page echoed out
-	*/
+	Coded by : Neil Wakely
+	***********************************************************************************/
 	echo "</div>"."\n";
 	echo "</body>"."\n";
 	echo "</html>"."\n";
