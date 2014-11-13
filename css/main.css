@@ -88,7 +88,7 @@ SLIDESHOW
 Last updated by :- Dave Wakely
 Date of last update :- 12/11/2014
 ************************************************/
-.slideshow { 
+#slideshow { 
 	width: 940px; 
 	height: 400px; 
 }
