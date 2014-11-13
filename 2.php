@@ -5,8 +5,8 @@
 **********************************/
 
 
-	// Set the Page ID
-	$FBid = "468113209957335";
+	
+	$FBid = "468113209957335"; // Set the Page ID
 
 	// Get The Contents of the Facebook Page
 	$FBpage = file_get_contents("https://graph.facebook.com/".$FBid."/albums");

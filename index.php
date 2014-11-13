@@ -16,8 +16,9 @@
 	Coded by Neil Wakely
 	***********************************************************************************/
 	$page="home"; // Main menu link highlight variable
-
 	
+	
+
 	/***********************************************************************************
 	Normal HTML code echoed out
 	Coded by : Neil Wakely
