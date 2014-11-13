@@ -18,17 +18,20 @@
 
 	$photo_count = count($obj["data"]);
 
-	echo "<div class=\"fadein\">";
+	echo "<div class=\"carousel\">";
+	echo "<ul class=\"panes\">";
 
 	for($x=0; $x<$photo_count; $x++){
 
+		echo "<li>";
 		$source = $obj["data"][$x]["source"];
-
 		echo "<a href=\"{$source}\" data-gallery>";
 			echo "<img src=\"".$source."\">";
 		echo "</a>";
-	}
+		echo "</li>";
 
+	}
+	echo "</ul>";
 	echo "</div>";
 	echo "</div>";
 

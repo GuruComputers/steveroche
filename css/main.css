@@ -93,19 +93,29 @@ Date of last update :- 12/11/2014
 	height: 400px; 
 }
 
-.fadein { 
-	position:relative; 
-	height:332px; 
-	width:500px; 
-	margin:0 auto;
-	background: url("../img/slideshow-bg.png") repeat-x scroll left top transparent;
-	padding: 10px;
- }
-
-.fadein img { 
-	position:absolute; 
-	left:10px; 
-	top:10px; 
+.carousel{
+    overflow:hidden;
+    width:100%;
+}
+.panes{
+    list-style:none;
+    position:relative;
+    width:100%; /* Number of panes * 100% */
+    overflow:hidden; /* This is used solely to clear floats, it does not add functionality. */
+        
+    -moz-animation:carousel 30s infinite;
+    -webkit-animation:carousel 30s infinite;
+    animation:carousel 30s infinite;
+}
+.panes > li{
+    position:relative;
+    float:left;
+    width:100%; /* 100 / number of panes */
+}
+.carousel img{
+    display:block;
+    width:100%;
+    max-width:100%;
 }
 
 /************************************************
