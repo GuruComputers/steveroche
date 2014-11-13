@@ -16,7 +16,7 @@ body {
 }
 
 #wrapper {
-	max-width: 940px;
+	width: 940px;
 	background: white;
 	margin-left: auto;
 	margin-right: auto;
