@@ -90,7 +90,7 @@ Date of last update :- 13/11/2014
 ************************************************/
 .carousel{
     overflow:hidden;
-    width:100%;
+    max-width:940px;
 }
 .panes{
     list-style:none;
@@ -105,11 +105,10 @@ Date of last update :- 13/11/2014
 .panes > li{
     position:relative;
     float:left;
-    width:16; /* 100 / number of panes */
+    width:25; /* 100 / number of panes */
 }
 .carousel img{
     display:block;
-    width:100%;
     max-width:100%;
 }
 
