@@ -1,4 +1,7 @@
 <?php
+
+	echo "<div id =\"slideshow\">";
+
 /**********************************
       Facebook Image Slider
          By Dave Wakely
@@ -14,12 +17,12 @@
 	// Interpret Data with JSON
 	$photoData = json_decode($FBpage);
 
-	//Temp Test Echo
-	echo $FBid;
-
 	// Get Album List
 	foreach ( $photoData->data as $data )
 	{
 		echo "<li>".$data->name."</li>";
 	}
+
+	echo "</div>";
+
 ?>
