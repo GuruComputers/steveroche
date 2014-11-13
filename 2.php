@@ -15,8 +15,8 @@
 	$photoData = json_decode($FBpage);
 
 	// Get Album List
-	foreach ($photoData->data as $data)
+	foreach ( $photoData->data as $data )
 	{
-		echo '<li>'.$data.'</li>';
+		echo ‘<li>’.$data->name.’</li>’;
 	}
 ?>
