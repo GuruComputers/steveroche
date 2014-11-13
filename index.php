@@ -11,8 +11,13 @@
 
 
 
-
+	/***********************************************************************************
+	Declare variables needed for the page
+	Coded by Neil Wakely
+	***********************************************************************************/
 	$page="home"; // Main menu link highlight variable
+
+	
 	/***********************************************************************************
 	Normal HTML code echoed out
 	Coded by : Neil Wakely
@@ -142,7 +147,7 @@
 	echo "&copy"." ".$cy." S.M. Roche"."\n";
 	echo "</div>"."\n"."\n";
 
-	
+
 	/***********************************************************************************
 	End of normal HTML code to close of page echoed out
 	Coded by : Neil Wakely
