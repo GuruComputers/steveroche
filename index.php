@@ -32,6 +32,18 @@
 	Coded by : Neil Wakely
 	***********************************************************************************/
 	echo "<head>"."\n";
+	
+	$iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+	$android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
+	$palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
+	$berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
+	$ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
+
+	if ($iphone || $android || $palmpre || $ipod || $berry == true) 
+	{
+		echo "<script>window.location='./mobile/'</script>";
+	}
+	
 	echo "<meta charset=\"utf-8\">"."\n";
 	echo "<title>S.M. Roche</title>"."\n";
 	echo "<link rel=\"stylesheet\" href=\"css/normalize.css\">"."\n";
