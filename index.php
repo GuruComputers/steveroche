@@ -38,8 +38,9 @@
 	$palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
 	$berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
 	$ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
+	$fire = strpos ($_SERVER['HTTP_USER_AGENT'],"Mobile");
 
-	if ($iphone || $android || $palmpre || $ipod || $berry == true) 
+	if ($iphone || $android || $palmpre || $ipod || $berry || $fire == true) 
 	{
 		echo "<script>window.location='./mobile/'</script>";
 	}
