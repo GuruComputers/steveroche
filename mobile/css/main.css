@@ -12,6 +12,7 @@ Date of last update :- 15/11/2014
 ************************************************/
 body {
     background: white;
+    width: 100%;
 }
 
 #wrapper {
@@ -20,4 +21,31 @@ body {
 
 #logo {
     width: 100%;
+}
+
+/************************************************
+MENU
+
+Last updated by :- Neil Wakely
+Date of last update :- 15/11/2014
+************************************************/
+#top, #bottom {
+	width: 100%;
+	background: grey;
+}
+
+#one, #three {
+	width: 40%;
+	background: green;
+	float: left;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#two, #four {
+	width: 40%;
+	background: green;
+	float: right;
+	margin-right: 5%;
+	margin-left: 5%;
 }
