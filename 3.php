@@ -6,11 +6,10 @@ echo "<div id=\"content\">";
 // Floating Div for About Us Section
 echo "<div style=\"float:left; width: 250px;\">";
 echo "<h2>About Us</h2>";
-echo "<span class=\"span-content\">Although i have over 20 years experience as a flat roofer, i am also a qualified plumber and can do general house maintenance.
-
-I can repair or replace Guttering, Soffits, Fascias, fencing and fit Velux windows. 
-I work on my own so I can therefore keep my costs low. As a professional tradesman I can receieve generous discounts from many builders merchants and pass them onto you!! 
-Please take a look at my photographs on my page and if you are happy with what you see give me a ring 07592262165.</span>";
+echo "<span class=\"span-describe\">Although i have over 20 years experience as a flat roofer, i am also a qualified plumber and can do general house maintenance.</span>";
+echo "<span class=\"span-describe\">I can repair or replace Guttering, Soffits, Fascias, fencing and fit Velux windows.</span>";
+echo "<span class=\"span-describe\">I work on my own so I can therefore keep my costs low. As a professional tradesman I can receieve generous discounts from many builders merchants and pass them onto you!!</span>"; 
+echo "<span class=\"span-describe\">Please take a look at my photographs on my page and if you are happy with what you see give me a ring 07592262165.</span>";
 echo "</div>";
 
 // Box for Plumbing Services
