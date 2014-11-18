@@ -114,18 +114,50 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.phone {
+.phone, .email, .facebook, .tweet, .twitter {
     width: 182px;
     height: 50px;
-    background: url("./img/phone.png") no-repeat;
+}
+
+.phone {
+    background: url("../img/phone.png") no-repeat;
 }
 
 .phone:hover {
-    width: 182px;
-    height: 50px;
-    background: url("./img/phone_hover.png") no-repeat;
+    background: url("../img/phone_hover.png") no-repeat;
 }
 
+.email {
+    background: url("../img/email.png") no-repeat;
+}
+
+.email:hover {
+    background: url("../img/email_hover.png") no-repeat;
+}
+
+.facebook {
+    background: url("../img/facebook.png") no-repeat;
+}
+
+.facebook:hover {
+    background: url("../img/facebook_hover.png") no-repeat;
+}
+
+.tweet {
+    background: url("../img/tweet.png") no-repeat;
+}
+
+.tweet:hover {
+    background: url("../img/tweet_hover.png") no-repeat;
+}
+
+.twitter {
+    background: url("../img/twitter.png") no-repeat;
+}
+
+.twitter:hover {
+    background: url("../img/twitter_hover.png") no-repeat;
+}
 /************************************************
 SLIDESHOW
 
