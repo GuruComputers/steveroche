@@ -21,20 +21,20 @@
                 	<div class="box">
                     	<span class="span-content">Plumbing Services</span>
                         <div style="height:10px"></div>
-                  <img src="images/tap.png" alt="" /></div>
+                  <img src="img/plumbing.png" alt="" /></div>
                   <div style="height:10px; width: 23px; float:left"></div>
 
                     <div class="box">
                     	<span class="span-content">Roofing Services</span> <br />
                     	<div style="height:10px"></div>
-                        <img src="images/img2.jpg" alt="" />
+                        <img src="img/roofing.png" alt="" />
                   </div>
 
                   <div style="height:10px; width: 23px; float:left"></div>
                     <div class="box">
                     	<span class="span-content">Associated Works</span>
                     	<div style="height:10px"></div>
-                        <img src="images/img3.jpg" alt="" />
+                        <img src="img/aworks.png" alt="" />
                     </div>
 
                     <div style="clear: both;"></div>
