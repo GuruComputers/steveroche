@@ -183,6 +183,7 @@ Date of last update :- 13/11/2014
 /************************************************
 CONTENT BOX
 
+Section 3
 Last updated by :- Dave Wakely
 Date of last update :- 18/11/2014
 ************************************************/
@@ -190,6 +191,7 @@ Date of last update :- 18/11/2014
     clear: both;
     padding-left: 5%;
     padding-right: 5%;
+    width: 100%;
 }
 
 .box {
