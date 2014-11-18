@@ -41,7 +41,6 @@
                 </div>
             </div>
             <div style="clear: both;"></div>
-        </div>
-        <div style="height:50px"></div>        
-        
+        </div>     
+ 
     </div>
