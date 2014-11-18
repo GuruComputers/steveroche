@@ -1,7 +1,7 @@
 <?php
 
 // Main Content Div
-echo "<div id=\"content\">";
+echo "<div id=\"contact\">";
 
 // Floating Div for About Us Section
 echo "<div style=\"float:left; width: 250px;\">";
