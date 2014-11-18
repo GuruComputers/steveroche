@@ -60,48 +60,48 @@ Section : 1
 Coded by : Neil Wakely
 -->
 	<div id="header">
-	<header>
-	<a href="index.php">
-		<img src="img/logo.png" id="logo" alt="S.M. Roche Logo">
-	</a>
-	<nav>
-		<ul>
-		<?php
-			$page="home";
-			if ($page == "home") {
-				echo "<li><a href=\"index.php\" class=\"selected\">Home</a></li>"."\n";
-			} else {
-				echo "<li><a href=\"index.php\">Home</a></li>"."\n";
-			}
+		<header>
+			<a href="index.php">
+				<img src="img/logo.png" id="logo" alt="S.M. Roche Logo">
+			</a>
+			<nav>
+				<ul>
+					<?php
+						$page="home";
+						if ($page == "home") {
+							echo "<li><a href=\"index.php\" class=\"selected\">Home</a></li>"."\n";
+						} else {
+							echo "<li><a href=\"index.php\">Home</a></li>"."\n";
+						}
 
-			if ($page == "testimonials") {
-				echo "<li><a href=\"testimonials.php\" class=\"selected\">Testimonials</a></li>"."\n";
-			} else {
-				echo "<li><a href=\"testimonials.php\">Testimonials</a></li>"."\n";
-			}
+						if ($page == "testimonials") {
+							echo "<li><a href=\"testimonials.php\" class=\"selected\">Testimonials</a></li>"."\n";
+						} else {
+							echo "<li><a href=\"testimonials.php\">Testimonials</a></li>"."\n";
+						}
 
-			if ($page == "gallery") {
-				echo "<li><a href=\"gallery.php\" class=\"selected\">Gallery</a></li>"."\n";
-			} else {
-				echo "<li><a href=\"gallery.php\">Gallery</a></li>"."\n";
-			}
+						if ($page == "gallery") {
+							echo "<li><a href=\"gallery.php\" class=\"selected\">Gallery</a></li>"."\n";
+						} else {
+							echo "<li><a href=\"gallery.php\">Gallery</a></li>"."\n";
+						}
 
-			if ($page == "About") {
-				echo "<li><a href=\"about.php\" class=\"selected\">About</a></li>"."\n";
-			} else {
-				echo "<li><a href=\"about.php\">About</a></li>"."\n";
-			}
+						if ($page == "About") {
+							echo "<li><a href=\"about.php\" class=\"selected\">About</a></li>"."\n";
+						} else {
+							echo "<li><a href=\"about.php\">About</a></li>"."\n";
+						}
 
-			if ($page == "contact") {
-				echo "<li><a href=\"contct.php\" class=\"selected\">Contact</a></li>"."\n";
-			} else {
-				echo "<li><a href=\"contact.php\">Contact</a></li>"."\n";
-			}
-		?>
-		</ul>
-	</nav>
-	<img src="img/hr.png" class="hr"> <!-- top hr rule -->
-	</header>
+						if ($page == "contact") {
+							echo "<li><a href=\"contct.php\" class=\"selected\">Contact</a></li>"."\n";
+						} else {
+							echo "<li><a href=\"contact.php\">Contact</a></li>"."\n";
+						}
+					?>
+				</ul>
+			</nav>
+			<img src="img/hr.png" class="hr"> <!-- top hr rule -->
+		</header>
 	</div>
 
 
