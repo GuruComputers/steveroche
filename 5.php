@@ -1,5 +1,5 @@
 <div id ="footer">
-	<h3 align="center">Contact Information</h3>
+	<h3>Contact Information</h3>
 	<table width="100%" height="100px">
 		<tr>
 			<td>
