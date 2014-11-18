@@ -1,7 +1,8 @@
 <?php
 	echo "<div id =\"footer\">"."\n";
-	echo "<center><h3><p id=\"contact\">Contact Information</p></h3></center><br />"."\n";
 	echo "<table align=\"center\" width=\"100%\" height=\"100px\">"."\n";
+	echo "<tr>"."\n";
+	echo "<th width=\"100%\"><h3>Contact Information</h3></th>"."\n";
 	echo "<tr>"."\n";
 	echo "<td bgcolor=\"white\" align=\"center\" valign=\"top\"><a href=\"tel:07871828709\">Telephone</a></td>"."\n"; 
 	echo "<td bgcolor=\"white\" align=\"center\" valign=\"top\"><a href=\"mailto:steve@sm-roche.co.uk\">Email Address</a></td>"."\n"; 
