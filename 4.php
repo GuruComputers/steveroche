@@ -25,6 +25,7 @@
             <span class="span-content">
             <div id="testimonials">
         		<ul>
+        			<li>Thank you so much Steve for the wonderful work you done on my roof last week, very professional, reliable and always on time. Great prices - very affordable! would definately recommend you. <p> - Chloe Fern Davies</p></li>
         		</ul>
    			 </div>
              </span><a href="testimonials.php" class="more2">Read More</a>
