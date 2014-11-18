@@ -110,9 +110,8 @@ Facebook Image Slider
 Section : 2
 Coded by : Dave Wakely
 -->
+	echo "<div id =\"slideshow\">";
 	<?php
-
-		echo "<div id =\"slideshow\">";
 		$FBid = "468113209957335"; // Set the Page ID
 		$fbPhotos_link = "http://graph.facebook.com/497225217046134/photos?fields=source";
 		$fbPhotos = file_get_contents($fbPhotos_link);
@@ -126,9 +125,9 @@ Coded by : Dave Wakely
 			echo "<img src=\"".$source."\">";
 			echo "</li>";
 		}
-		echo "</ul>";
-		echo "</div>";
 	?>
+	</ul>
+	</div>
 	<img src="img/hr.png" class="hr"> <!-- middle hr rule -->
 
 <!--
