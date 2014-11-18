@@ -19,7 +19,7 @@
           
         </span></div>
         <div style="float: left; width: 21px; height:10px;"></div>
-        <div style="float: left; width: 500px;">
+        <div style="float: right; width: 500px; padding-right: 5%;">
         	<img src="img/speech.gif" class="img_l" alt="" />
             <div style="clear: both;"></div>
             <span class="span-content">
