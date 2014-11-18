@@ -3,7 +3,7 @@
 	<table width="100%" height="100px">
 		<tr>
 			<td>
-				<a href="tel:07871828709"><img src="./img/phone.png"></a>
+				<a href="tel:07871828709"><div class="phone"></div></a>
 			</td>
 			<td>
 				<a href="mailto:steve@sm-roche.co.uk"><img src="./img/email.png"></a>
