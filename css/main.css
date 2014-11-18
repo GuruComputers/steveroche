@@ -27,6 +27,10 @@ a {
 	color: #000;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 a:hover, a.selected {
 	color: red;
 }
@@ -108,10 +112,6 @@ nav a {
 	padding: 15px 10px;
     font-size: 18px;
     font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
 }
 
 .phone, .email, .facebook, .tweet, .twitter {
