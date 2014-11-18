@@ -3,7 +3,7 @@
     <div style="height:25px"></div>
     <div>
 
-        <div style="float:left; width: 250px;">
+        <div style="float:left; width: 250px; padding-left: 5%">
         	<h2>About Us</h2>
             <div style="height:20px"></div>
             <span class="span_cont">Although I have over 20 years experience as a flat roofer, I am also a qualified plumber and can do general house maintenance.
