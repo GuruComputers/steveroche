@@ -1,4 +1,6 @@
-<div style="height:50px"></div>
+<div style="height:25px"></div>
+<div class="line"></div>
+<div style="height:25px"></div>
 <div>
     <div style="float: left; width: 32px; height:10px;"></div>
     <div style="float: left; width: 250px;">
@@ -14,3 +16,6 @@
         <div style="clear: both;"></div>
     </div>
 </div>
+<div style="height:25px"></div>
+<div class="line"></div>
+<div style="height:25px"></div>

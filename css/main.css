@@ -48,6 +48,11 @@ h2 {
     line-height:normal;
 }
 
+.line { 
+    border-top: 1px 
+    solid #585858;
+}
+
 /************************************************
 HEADER
 
