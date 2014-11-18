@@ -9,9 +9,8 @@
             <span class="span-describe">Although I have over 20 years experience as a flat roofer, I am also a qualified plumber and can do general house maintenance.
 
 <p>I can repair or replace Guttering, Soffits, Fascias, Fencing and fit Velux Windows. </p>
-<p>I work on my own so I can therefore keep my costs low.</p>
 <p>As a professional tradesman I can receieve generous discounts from many builders merchants and pass them onto you!</p>
-Please take a look at my photographs in my gallery and if you are happy with what you see give me a ring 07592262165.</span></div>
+<a href="about.php">Read More</a></span></div>
         <div style="float: left; width: 32px; height:10px;"></div>
         <div style="float: left; width: 658px;">
 
