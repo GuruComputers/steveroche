@@ -19,10 +19,18 @@
           
         </span></div>
         <div style="float: left; width: 21px; height:10px;"></div>
-        <div style="float: left; width: 380px;">
+        <div style="float: left; width: 500px;">
         	<img src="img/speech.gif" class="img_l" alt="" />
             <div style="clear: both;"></div>
-            <span class="span-content">Space here to showcase Customer Testimonials</span><a href="testimonials.php" class="more2"></a>
+            <span class="span-content">
+            <div id="testimonials">
+        		<ul>
+        			<!-- Generation of the testimonials takes place here -->
+        		</ul>
+   			 </div>
+   			 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+			 <script src="lib/script.js"></script>
+             </span><a href="testimonials.php" class="more2">Read More</a>
         </div>
         <div style="clear: both;"></div>
     </div>
