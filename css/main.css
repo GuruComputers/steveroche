@@ -188,8 +188,6 @@ Last updated by :- Dave Wakely
 Date of last update :- 18/11/2014
 ************************************************/
 #content {
-    padding-left: 5%;
-    padding-right: 5%;
     width: 100%;
 }
 
@@ -206,7 +204,7 @@ h2 {
     font-weight: 100;
     color: #000000;
     text-align: left;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
     line-height:normal;
 }
 
