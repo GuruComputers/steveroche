@@ -25,7 +25,6 @@
             <span class="span-content">
             <div id="testimonials">
         		<ul>
-
         		</ul>
    			 </div>
              </span><a href="testimonials.php" class="more2">Read More</a>
