@@ -1,157 +1,155 @@
+<!--
+Bespoke customer web site programmed by Dave & Neil Wakely
+(c) Guru Computers Ltd.
+
+Customer : S.M. Roche
+Website : Managed
+-->
+
+
+
+
+<!--
+Normal HTML code echoed out
+Coded by : Neil Wakely
+-->
+<!DOCTYPE html>
+<html>
+
+
+<!--
+Head section of HTML code echoed out
+Coded by : Neil Wakely
+-->
+<head>
+	<?php
+		$iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+		$android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
+		$palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
+		$berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
+		$ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
+		$fire = strpos ($_SERVER['HTTP_USER_AGENT'],"Mobile");
+		if ($iphone || $android || $palmpre || $ipod || $berry || $fire == true) 
+		{
+			echo "<script>window.location='./mobile/'</script>";
+		}
+	?>
+	<meta charset="utf-8">
+	<title>S.M. Roche</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="http://fonts.googleapis.com/css?family=Lobster|Open+Sans" rel="stylesheet" type="text/cs">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<script type="text/javascript" src="lib/jquery-1.3.2.min.js"></script> <!-- Needed for slideshow -->
+	<script type="text/javascript" src="lib/jquery.tools.js"></script> <!-- Needed for slideshow -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<!--
+Body of HTML starts here
+Coded by : Neil Wakely
+-->
+<body>
+	<div id="wrapper"> <!-- Main wrapper declared for page -->
+
+
+<!--
+HEADER 
+Section : 1
+Coded by : Neil Wakely
+-->
+	<div id="header">
+	<header>
+	<a href="index.php">
+		<img src="img/logo.png" id="logo" alt="S.M. Roche Logo">
+	</a>
+	<nav>
+		<ul>
+		<?php
+			$page="home";
+			if ($page == "home") {
+				echo "<li><a href=\"index.php\" class=\"selected\">Home</a></li>"."\n";
+			} else {
+				echo "<li><a href=\"index.php\">Home</a></li>"."\n";
+			}
+
+			if ($page == "testimonials") {
+				echo "<li><a href=\"testimonials.php\" class=\"selected\">Testimonials</a></li>"."\n";
+			} else {
+				echo "<li><a href=\"testimonials.php\">Testimonials</a></li>"."\n";
+			}
+
+			if ($page == "gallery") {
+				echo "<li><a href=\"gallery.php\" class=\"selected\">Gallery</a></li>"."\n";
+			} else {
+				echo "<li><a href=\"gallery.php\">Gallery</a></li>"."\n";
+			}
+
+			if ($page == "About") {
+				echo "<li><a href=\"about.php\" class=\"selected\">About</a></li>"."\n";
+			} else {
+				echo "<li><a href=\"about.php\">About</a></li>"."\n";
+			}
+
+			if ($page == "contact") {
+				echo "<li><a href=\"contct.php\" class=\"selected\">Contact</a></li>"."\n";
+			} else {
+				echo "<li><a href=\"contact.php\">Contact</a></li>"."\n";
+			}
+		?>
+		</ul>
+	</nav>
+	<img src="img/hr.png" class="hr"> <!-- top hr rule -->
+	</header>
+	</div>
+
+
+<!--
+SLIDESHOW
+Section : 2
+Coded by : Dave Wakely
+-->
+	<?php
+		include("2.php"); // <!-- Slideshow -->
+	?>
+	<img src="img/hr.png" class="hr"> <!-- middle hr rule -->
+
+<!--
+CONTENT MENU 
+Section : 3
+Coded by : Dave Wakely
+-->
+	<?php
+		include("3.php"); // <!-- Content menu -->
+	?>
+
+<!--
+NEWS & CUSTOMER TESTIMONIALS 
+Section : 4
+Coded by : Dave Wakely
+-->
+	<?php
+		include("4.php"); // <!-- News & Customer Testimonials -->
+	?>
+
+<!--
+FOOTER
+Section : 5
+Coded by : Neil Wakely
+-->
+	<?php
+		include("5.php"); // <!-- Footer -->
+	?>
+
+<!--
+Copyright
+Section : 6
+Coded by : Neil Wakely
+-->
+<div id="copyright">
+<img src="img/hr.png" class="hr"> <!-- bottom hr rule -->
 <?php
-	/***********************************************************************************
-	Bespoke customer web site programmed by Dave & Neil Wakely
-	(c) Guru Computers Ltd.
-
-	Customer : S.M. Roche
-	Website : Managed
-	***********************************************************************************/
-
-
-
-
-
-	/***********************************************************************************
-	Declare variables needed for the page
-	Coded by Neil Wakely
-	***********************************************************************************/
-	$page="home"; // Main menu link highlight variable
-	
-	
-
-	/***********************************************************************************
-	Normal HTML code echoed out
-	Coded by : Neil Wakely
-	***********************************************************************************/
-	echo "<!DOCTYPE html>"."\n";
-	echo "<html>"."\n";
-
-
-	/***********************************************************************************
-	Head section of HTML code echoed out
-	Coded by : Neil Wakely
-	***********************************************************************************/
-	echo "<head>"."\n";
-	
-	$iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-	$android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
-	$palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
-	$berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
-	$ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
-	$fire = strpos ($_SERVER['HTTP_USER_AGENT'],"Mobile");
-
-	if ($iphone || $android || $palmpre || $ipod || $berry || $fire == true) 
-	{
-		echo "<script>window.location='./mobile/'</script>";
-	}
-	
-	echo "<meta charset=\"utf-8\">"."\n";
-	echo "<title>S.M. Roche</title>"."\n";
-	echo "<link rel=\"stylesheet\" href=\"css/normalize.css\">"."\n";
-	echo "<link href=\"http://fonts.googleapis.com/css?family=Lobster|Open+Sans\" rel=\"stylesheet\" type=\"text/css\">"."\n";
-	echo "<link rel=\"stylesheet\" href=\"css/main.css\">"."\n";
-	echo "<link rel=\"stylesheet\" href=\"css/responsive.css\">"."\n";
-	echo "<script type=\"text/javascript\" src=\"lib/jquery-1.3.2.min.js\"></script>"."\n"; // Needed for slideshow
-  	echo "<script type=\"text/javascript\" src=\"lib/jquery.tools.js\"></script>"."\n"; // Needed for slideshow
-	echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"."\n";
-	echo "</head>"."\n";
-
-
-	/***********************************************************************************
-	Body of HTML starts here
-	Coded by : Neil Wakely
-	***********************************************************************************/
-	echo "<body>"."\n";
-	echo "<div id=\"wrapper\">"."\n"; // Main wrapper declared for page
-
-
-	/***********************************************************************************
-	HEADER 
-	Section : 1
-	Coded by : Neil Wakely
-	***********************************************************************************/
-	echo "<div id=\"header\">"."\n";
-	echo "<header>"."\n";
-	echo "<a href=\"index.php\">";
-	echo "<img src=\"img/logo.png\" id=\"logo\" alt=\"S.M. Roche Logo\">";
-	echo "</a>"."\n";
-	echo "<nav>"."\n";
-	echo "<ul>"."\n";
-	if ($page == "home") {
-		echo "<li><a href=\"index.php\" class=\"selected\">Home</a></li>"."\n";
-	} else {
-		echo "<li><a href=\"index.php\">Home</a></li>"."\n";
-	}
-	
-	if ($page == "testimonials") {
-		echo "<li><a href=\"testimonials.php\" class=\"selected\">Testimonials</a></li>"."\n";
-	} else {
-		echo "<li><a href=\"testimonials.php\">Testimonials</a></li>"."\n";
-	}
-	
-	if ($page == "gallery") {
-		echo "<li><a href=\"gallery.php\" class=\"selected\">Gallery</a></li>"."\n";
-	} else {
-		echo "<li><a href=\"gallery.php\">Gallery</a></li>"."\n";
-	}
-
-	if ($page == "About") {
-		echo "<li><a href=\"about.php\" class=\"selected\">About</a></li>"."\n";
-	} else {
-		echo "<li><a href=\"about.php\">About</a></li>"."\n";
-	}
-
-	if ($page == "contact") {
-		echo "<li><a href=\"contct.php\" class=\"selected\">Contact</a></li>"."\n";
-	} else {
-		echo "<li><a href=\"contact.php\">Contact</a></li>"."\n";
-	}
-	echo "</ul>"."\n";
-	echo "</nav>"."\n";
-	echo "<img src=\"img/hr.png\" id=\"hr\">"."\n"; // top hr rule
-	echo "</header>"."\n";
-	echo "</div>"."\n";	
-
-
-	/***********************************************************************************
-	SLIDESHOW
-	Section : 2
-	Coded by : Dave Wakely
-	***********************************************************************************/
-	include("2.php"); // Slideshow
-	echo "<img src=\"img/hr.png\" id=\"hr\">"."\n"; // top hr rule
-
-	/***********************************************************************************
-	CONTENT MENU 
-	Section : 3
-	Coded by : Dave Wakely
-	***********************************************************************************/
-	include("3.php"); // Content menu
-
-
-	/***********************************************************************************
-	NEWS & CUSTOMER TESTIMONIALS 
-	Section : 4
-	Coded by : Dave Wakely
-	***********************************************************************************/
-	include("4.php"); // News & Customer Testimonials
-
-
-	/***********************************************************************************
-	FOOTER
-	Section : 5
-	Coded by : Neil Wakely
-	***********************************************************************************/
-	include("5.php"); // Footer
-
-
-	/***********************************************************************************
-	Copyright
-	Section : 6
-	Coded by : Neil Wakely
-	***********************************************************************************/
-	echo "<div id=\"copyright\">"."\n";
-	echo "<img src=\"img/hr.png\" id=\"hr\">"."\n"; // bottom hr rule
 	$start=2014;
 	$current=date("Y");
 	$cy="";
@@ -163,14 +161,14 @@
 	}
 	echo "Designed & Hosted by <a href=\"http://gurucomputers.co.uk\" alt=\"guru computers ltd website\" id=\"guru\" target=\"_blank\">Guru Computers Ltd.</a>"."<br />"."\n";
 	echo "&copy"." ".$cy." S.M. Roche"."\n";
-	echo "</div>"."\n"."\n";
-
-
-	/***********************************************************************************
-	End of normal HTML code to close of page echoed out
-	Coded by : Neil Wakely
-	***********************************************************************************/
-	echo "</div>"."\n";
-	echo "</body>"."\n";
-	echo "</html>"."\n";
 ?>
+</div>
+
+
+<!--
+End of normal HTML code to close of page echoed out
+Coded by : Neil Wakely
+-->
+</div>
+</body>
+</html>
