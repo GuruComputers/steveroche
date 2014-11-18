@@ -27,19 +27,19 @@
         		<ul>
         			<?php
             
-                $xmlFile = 'xml/testimonials.xml';
-                $xslFile = 'xml/transform.xml';
-                
-                $doc = new DOMDocument();
-                $xsl = new XSLTProcessor();
-                
-                $doc->load($xslFile);
-                $xsl->importStyleSheet($doc);
-                
-                $doc->load($xmlFile);
-                echo $xsl->transformToXML($doc);
+                        $xmlFile = './xml/testimonials.xml';
+                        $xslFile = './xml/transform.xml';
+                        
+                        $doc = new DOMDocument();
+                        $xsl = new XSLTProcessor();
+                        
+                        $doc->load($xslFile);
+                        $xsl->importStyleSheet($doc);
+                        
+                        $doc->load($xmlFile);
+                        echo $xsl->transformToXML($doc);
             
-            ?>
+                     ?>
         		</ul>
    			 </div>
    			 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
