@@ -183,6 +183,11 @@ CONTENT BOX
 Last updated by :- Dave Wakely
 Date of last update :- 18/11/2014
 ************************************************/
+#content {
+    clear: both;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 .box {
     float: left;
@@ -201,12 +206,12 @@ h2 {
     line-height:normal;
 }
 
-.span-content { 
+#span-content { 
     color: #038760;
     font-weight: bold; 
 }
 
-.span-describe {
+#span-describe {
     padding-left: 5%;
 }
 
