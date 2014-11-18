@@ -4,7 +4,7 @@
 echo "<div id=\"content\">"."\n"; 
 
 // Floating Div for About Us Section
-echo "<div style=\"float:left; width: 250px;\">"."\n";
+echo "<div style=\"float:left; width: 300px;\">"."\n";
 echo "<h2>About Us</h2>"."\n";
 echo "<span class=\"span-describe\">Although i have over 20 years experience as a flat roofer, i am also a qualified plumber and can do general house maintenance.</span>"."\n";
 echo "<span class=\"span-describe\">I can repair or replace Guttering, Soffits, Fascias, fencing and fit Velux windows.</span>"."\n";
@@ -33,3 +33,5 @@ echo "</div>"."\n";
 // End of Main Content Div
 echo "</div>"."\n";
 echo "<br />"."\n";
+
+?>
