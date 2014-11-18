@@ -39,6 +39,15 @@ div {
 	max-width: 940px;
 }
 
+h2 {
+    font-size:18px;
+    font-weight: 100;
+    color: #000000;
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+    line-height:normal;
+}
+
 /************************************************
 HEADER
 
@@ -197,15 +206,6 @@ Date of last update :- 18/11/2014
     height: 170px;
     border: 1px solid #585858;
     padding: 15px 15px 15px 15px;
-}
-
-h2 {
-    font-size:18px;
-    font-weight: 100;
-    color: #000000;
-    text-align: left;
-    padding: 0px 0px 0px 10px;
-    line-height:normal;
 }
 
 .span-content { 
