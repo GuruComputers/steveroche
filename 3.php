@@ -32,3 +32,4 @@ echo "</div>";
 
 // End of Main Content Div
 echo "</div>";
+echo "<br />";
