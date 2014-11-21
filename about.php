@@ -71,14 +71,8 @@ Coded by : Neil Wakely
 	$page="about";
 	$menu = array("Index", "Testimonials", "Gallery", "About", "Contact");
 	foreach ($menu as $item) {
-		if (strtolower($item) == "home"){
-			$item = "Index";
-		}
    	 	echo '<li><a href="'.strtolower($item).'.php"';
    	 	if (strtolower($item) == $page){
-   	 		echo ' class="selected"';
-   	 	}
-   	 	if (strtolower($item) == "index"){
    	 		echo ' class="selected"';
    	 	}
    	 	if (strtolower($item) == "index"){
