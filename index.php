@@ -34,12 +34,12 @@ Coded by : Neil Wakely
 ?>
 <meta charset="utf-8">
 <title>S.M. Roche</title>
-<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="./css/normalize.css">
 <link href="http://fonts.googleapis.com/css?family=Lobster|Open+Sans" rel="stylesheet" type="text/cs">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/responsive.css">
-<script type="text/javascript" src="lib/jquery-1.3.2.min.js"></script> <!-- Needed for slideshow -->
-<script type="text/javascript" src="lib/jquery.tools.js"></script> <!-- Needed for slideshow -->
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="./css/responsive.css">
+<script type="text/javascript" src="./lib/jquery-1.3.2.min.js"></script> <!-- Needed for slideshow -->
+<script type="text/javascript" src="./lib/jquery.tools.js"></script> <!-- Needed for slideshow -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -61,7 +61,7 @@ Coded by : Neil Wakely
 <div id="header">
 <header>
 <a href="index.php">
-	<img src="img/logo.png" id="logo" alt="S.M. Roche Logo">
+	<img src="./img/logo.png" id="logo" alt="S.M. Roche Logo">
 </a>
 
 
@@ -74,7 +74,9 @@ Coded by : Neil Wakely
 	foreach ($menu as $item) {
 		if ($item == "Contact"){
 			echo '<li><a href="#contact"';
-		}else{
+		} elseif ($item == "Index"){
+			echo '<li><a href="./"';
+		} else {
    	 		echo '<li><a href="'.strtolower($item).'.php"';
    	 	}
    	 	if (strtolower($item) == $page|| !"contact"){
@@ -88,7 +90,7 @@ Coded by : Neil Wakely
 ?>
 </ul>
 </nav>
-<img src="img/hr.png" class="hr"> <!-- top hr rule -->
+<img src="./img/hr.png" class="hr"> <!-- top hr rule -->
 </header>
 </div>
 
@@ -116,7 +118,7 @@ Coded by : Dave Wakely
 ?>
 </ul>
 </div>
-<img src="img/hr.png" class="hr"> <!-- middle hr rule -->
+<img src="./img/hr.png" class="hr"> <!-- middle hr rule -->
 
 
 <!--
@@ -144,7 +146,7 @@ FOOTER
 Section : 5
 Coded by : Neil Wakely
 -->
-<img src="img/hr.png" class="hr"> <!-- middle hr rule -->
+<img src="./img/hr.png" class="hr"> <!-- middle hr rule -->
 <a name="contact"></a>
 <div id ="footer">
 <h3>Contact Information</h3>
