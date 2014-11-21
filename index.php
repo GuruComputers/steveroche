@@ -51,6 +51,7 @@ Coded by : Neil Wakely
 <body>
 <div id="wrapper"> <!-- Main wrapper declared for page -->
 
+
 <!--
 HEADER 
 Section : 1
@@ -118,6 +119,7 @@ Coded by : Dave Wakely
 </div>
 <img src="img/hr.png" class="hr"> <!-- middle hr rule -->
 
+
 <!--
 CONTENT MENU 
 Section : 3
@@ -127,6 +129,7 @@ Coded by : Dave Wakely
 		include("3.php"); // <!-- Content menu -->
 	?>
 
+
 <!--
 NEWS & CUSTOMER TESTIMONIALS 
 Section : 4
@@ -135,6 +138,7 @@ Coded by : Dave Wakely
 	<?php
 		include("4.php"); // <!-- News & Customer Testimonials -->
 	?>
+
 
 <!--
 FOOTER
