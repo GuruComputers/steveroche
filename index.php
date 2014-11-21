@@ -22,27 +22,27 @@ Head section of HTML code echoed out
 Coded by : Neil Wakely
 -->
 <head>
-	<?php
-		$iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-		$android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
-		$palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
-		$berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
-		$ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
-		$fire = strpos ($_SERVER['HTTP_USER_AGENT'],"Mobile");
-		if ($iphone || $android || $palmpre || $ipod || $berry || $fire == true) 
-		{
-			echo "<script>window.location='./mobile/'</script>";
-		}
-	?>
-	<meta charset="utf-8">
-	<title>S.M. Roche</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link href="http://fonts.googleapis.com/css?family=Lobster|Open+Sans" rel="stylesheet" type="text/cs">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/responsive.css">
-	<script type="text/javascript" src="lib/jquery-1.3.2.min.js"></script> <!-- Needed for slideshow -->
-	<script type="text/javascript" src="lib/jquery.tools.js"></script> <!-- Needed for slideshow -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php
+	$iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+	$android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
+	$palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
+	$berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
+	$ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
+	$fire = strpos ($_SERVER['HTTP_USER_AGENT'],"Mobile");
+	if ($iphone || $android || $palmpre || $ipod || $berry || $fire == true) 
+	{
+		echo "<script>window.location='./mobile/'</script>";
+	}
+?>
+<meta charset="utf-8">
+<title>S.M. Roche</title>
+<link rel="stylesheet" href="css/normalize.css">
+<link href="http://fonts.googleapis.com/css?family=Lobster|Open+Sans" rel="stylesheet" type="text/cs">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<script type="text/javascript" src="lib/jquery-1.3.2.min.js"></script> <!-- Needed for slideshow -->
+<script type="text/javascript" src="lib/jquery.tools.js"></script> <!-- Needed for slideshow -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 
@@ -51,58 +51,48 @@ Body of HTML starts here
 Coded by : Neil Wakely
 -->
 <body>
-	<div id="wrapper"> <!-- Main wrapper declared for page -->
-
+<div id="wrapper"> <!-- Main wrapper declared for page -->
 
 <!--
 HEADER 
 Section : 1
 Coded by : Neil Wakely
 -->
-	<div id="header">
-		<header>
-			<a href="index.php">
-				<img src="img/logo.png" id="logo" alt="S.M. Roche Logo">
-			</a>
-			<nav>
-				<ul>
-					<?php
-						$page="home";
-						if ($page == "home") {
-							echo "<li><a href=\"index.php\" class=\"selected\">Home</a></li>"."\n";
-						} else {
-							echo "<li><a href=\"index.php\">Home</a></li>"."\n";
-						}
+<div id="header">
+<header>
+<a href="index.php">
+	<img src="img/logo.png" id="logo" alt="S.M. Roche Logo">
+</a>
 
-						if ($page == "testimonials") {
-							echo "<li><a href=\"testimonials.php\" class=\"selected\">Testimonials</a></li>"."\n";
-						} else {
-							echo "<li><a href=\"testimonials.php\">Testimonials</a></li>"."\n";
-						}
 
-						if ($page == "gallery") {
-							echo "<li><a href=\"gallery.php\" class=\"selected\">Gallery</a></li>"."\n";
-						} else {
-							echo "<li><a href=\"gallery.php\">Gallery</a></li>"."\n";
-						}
-
-						if ($page == "About") {
-							echo "<li><a href=\"about.php\" class=\"selected\">About</a></li>"."\n";
-						} else {
-							echo "<li><a href=\"about.php\">About</a></li>"."\n";
-						}
-
-						if ($page == "contact") {
-							echo "<li><a href=\"contct.php\" class=\"selected\">Contact</a></li>"."\n";
-						} else {
-							echo "<li><a href=\"contact.php\">Contact</a></li>"."\n";
-						}
-					?>
-				</ul>
-			</nav>
-			<img src="img/hr.png" class="hr"> <!-- top hr rule -->
-		</header>
-	</div>
+<!-- UL Menu by Neil Wakely -->
+<nav>
+<ul>
+<?php
+	$page="home";
+	$menu = array("Home", "Testimonials", "Gallery", "About", "Contact");
+	foreach ($menu as $item) {
+		if (strtolower($item) == "home"){
+			$item = "Index";
+		}
+   	 	echo '<li><a href="'.strtolower($item).'.php"';
+   	 	if (strtolower($item) == $page){
+   	 		echo ' class="selected"';
+   	 	}
+   	 	if (strtolower($item) == "index"){
+   	 		echo ' class="selected"';
+   	 	}
+   	 	if (strtolower($item) == "index"){
+   	 		$item = "Home";
+   	 	}
+   	 	echo '>'.$item.'</a></li>';
+   	 }
+?>
+</ul>
+</nav>
+<img src="img/hr.png" class="hr"> <!-- top hr rule -->
+</header>
+</div>
 
 
 <!--
@@ -110,25 +100,25 @@ Facebook Image Slider
 Section : 2
 Coded by : Dave Wakely
 -->
-	<div id ="slideshow">
-	<?php
-		$FBid = "468113209957335"; // Set the Page ID
-		$fbPhotos_link = "http://graph.facebook.com/497225217046134/photos?fields=source";
-		$fbPhotos = file_get_contents($fbPhotos_link);
-		$obj = json_decode($fbPhotos, true);
-		$photo_count = count($obj["data"]);
-		echo "<div class=carousel>"."\n";
-		echo "<ul class=panes>"."\n";
-		for($x=0; $x<$photo_count; $x++){
-			echo "<li>";
-			$source = $obj["data"][$x]["source"];
-			echo "<img src=\"".$source."\">"."\n";
-			echo "</li>"."\n";
-		}
-	?>
-	</ul>
-	</div>
-	<img src="img/hr.png" class="hr"> <!-- middle hr rule -->
+<div id ="slideshow">
+<?php
+	$FBid = "468113209957335"; // Set the Page ID
+	$fbPhotos_link = "http://graph.facebook.com/497225217046134/photos?fields=source";
+	$fbPhotos = file_get_contents($fbPhotos_link);
+	$obj = json_decode($fbPhotos, true);
+	$photo_count = count($obj["data"]);
+	echo "<div class=carousel>"."\n";
+	echo "<ul class=panes>"."\n";
+	for($x=0; $x<$photo_count; $x++){
+		echo "<li>";
+		$source = $obj["data"][$x]["source"];
+		echo "<img src=\"".$source."\">"."\n";
+		echo "</li>"."\n";
+	}
+?>
+</ul>
+</div>
+<img src="img/hr.png" class="hr"> <!-- middle hr rule -->
 
 <!--
 CONTENT MENU 
