@@ -125,9 +125,9 @@ CONTENT MENU
 Section : 3
 Coded by : Dave Wakely
 -->
-	<?php
-		include("3.php"); // <!-- Content menu -->
-	?>
+<?php
+	include("3.php"); // <!-- Content menu -->
+?>
 
 
 <!--
@@ -135,9 +135,9 @@ NEWS & CUSTOMER TESTIMONIALS
 Section : 4
 Coded by : Dave Wakely
 -->
-	<?php
-		include("4.php"); // <!-- News & Customer Testimonials -->
-	?>
+<?php
+	include("4.php"); // <!-- News & Customer Testimonials -->
+?>
 
 
 <!--
