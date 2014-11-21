@@ -71,8 +71,12 @@ Coded by : Neil Wakely
 	$page="about";
 	$menu = array("Index", "Testimonials", "Gallery", "About", "Contact");
 	foreach ($menu as $item) {
-   	 	echo '<li><a href="'.strtolower($item).'.php"';
-   	 	if (strtolower($item) == $page){
+		if ($item == "Contact"){
+			echo '<li><a href="#contact"';
+		}else{
+   	 		echo '<li><a href="'.strtolower($item).'.php"';
+   	 	}
+   	 	if (strtolower($item) == $page|| !"contact"){
    	 		echo ' class="selected"';
    	 	}
    	 	if (strtolower($item) == "index"){
@@ -91,12 +95,11 @@ Coded by : Neil Wakely
 <!--
 About Content
 Section : 2
-Coded by : Dave Wakely
+Coded by : 
 -->
 <div id ="about_content">
 <!-- Page code goes here -->
 </div>
-<img src="img/hr.png" class="hr"> <!-- middle hr rule -->
 
 
 <!--
@@ -104,6 +107,8 @@ FOOTER
 Section : 5
 Coded by : Neil Wakely
 -->
+<img src="img/hr.png" class="hr"> <!-- middle hr rule -->
+<a name="contact"></a>
 <div id ="footer">
 <h3>Contact Information</h3>
 <table width="100%" height="100px">
@@ -134,7 +139,7 @@ Section : 6
 Coded by : Neil Wakely
 -->
 <div id="copyright">
-<img src="img/hr.png" class="hr"> <!-- bottom hr rule -->
+<img src="./img/hr.png" class="hr"> <!-- bottom hr rule -->
 <?php
 	$start=2014;
 	$current=date("Y");
@@ -145,7 +150,10 @@ Coded by : Neil Wakely
 	if ($current>$start) {
 		$cy=$start."-".$current;
 	}
-	echo "Designed & Hosted by <a href=\"http://gurucomputers.co.uk\" alt=\"guru computers ltd website\" id=\"guru\" target=\"_blank\">Guru Computers Ltd.</a>"."<br />"."\n";
+?>
+<p><a href="#top"><img src="./img/top.png" class="toparrow"></a></p>
+<p>Designed & Hosted by <a href="http://gurucomputers.co.uk" alt="guru computers ltd website" id="guru" target="_blank">Guru Computers Ltd.</a></p>
+<?php
 	echo "&copy"." ".$cy." S.M. Roche"."\n";
 ?>
 </div>

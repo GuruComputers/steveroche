@@ -61,10 +61,14 @@ h3 {
     line-height:normal;
 }
 
-
-.line { 
-    border-top: 1px 
+.line {
+    border-top: 1px
     solid #585858;
+}
+
+.toparrow {
+    float: right;
+    height: 40px;
 }
 
 /************************************************
