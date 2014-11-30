@@ -1,0 +1,95 @@
+<!--
+Bespoke customer web site programmed by Dave & Neil Wakely
+(c) Guru Computers Ltd.
+
+Customer : S.M. Roche
+Website : Managed
+-->
+
+
+<!--
+Normal HTML code echoed out
+Coded by : Neil Wakely
+-->
+<!DOCTYPE html>
+<html>
+
+
+<!--
+Head section of HTML code echoed out
+Coded by : Neil Wakely
+-->
+<head>
+<?php
+	$iphone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+	$android = strpos($_SERVER['HTTP_USER_AGENT'],"Android");
+	$palmpre = strpos($_SERVER['HTTP_USER_AGENT'],"webOS");
+	$berry = strpos($_SERVER['HTTP_USER_AGENT'],"BlackBerry");
+	$ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
+	$fire = strpos ($_SERVER['HTTP_USER_AGENT'],"Mobile");
+	if ($iphone || $android || $palmpre || $ipod || $berry || $fire == true) 
+	{
+		echo "<script>window.location='./mobile/'</script>";
+	}
+?>
+<meta charset="utf-8">
+<title>S.M. Roche</title>
+<link rel="stylesheet" href="./css/normalize.css">
+<link href="http://fonts.googleapis.com/css?family=Lobster|Open+Sans" rel="stylesheet" type="text/cs">
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="./css/responsive.css">
+<script type="text/javascript" src="./lib/jquery-1.3.2.min.js"></script> <!-- Needed for slideshow -->
+<script type="text/javascript" src="./lib/jquery.tools.js"></script> <!-- Needed for slideshow -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<!--
+Body of HTML starts here
+Coded by : Neil Wakely
+-->
+<body>
+<a name="top"></a>
+<div id="wrapper"> <!-- Main wrapper declared for page -->
+
+
+<!--
+HEADER 
+Section : 1
+Coded by : Neil Wakely
+-->
+<div id="header">
+<header>
+<a href="index.php">
+	<img src="./img/logo.png" id="logo" alt="S.M. Roche Logo">
+</a>
+
+
+<!-- UL Menu by Neil Wakely -->
+<nav>
+<ul>
+<?php
+	$page="index";
+	$menu = array("Index", "Testimonials", "Gallery", "About", "Contact");
+	foreach ($menu as $item) {
+		if ($item == "Contact"){
+			echo '<li><a href="#contact"';
+		} elseif ($item == "Index"){
+			echo '<li><a href="./"';
+		} else {
+   	 		echo '<li><a href="'.strtolower($item).'.php"';
+   	 	}
+   	 	if (strtolower($item) == $page|| !"contact"){
+   	 		echo ' class="selected"';
+   	 	}
+   	 	if (strtolower($item) == "index"){
+   	 		$item = "Home";
+   	 	}
+   	 	echo '>'.$item.'</a></li>';
+   	 }
+?>
+</ul>
+</nav>
+<img src="./img/hr.png" class="hr"> <!-- top hr rule -->
+</header>
+</div>
