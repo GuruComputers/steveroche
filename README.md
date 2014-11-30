@@ -1,4 +1,4 @@
 Steve Roche Sandbox Site
 ==========================
 
-bespoke web site design
+Bespoke web site design
