@@ -1,6 +1,7 @@
 <?php
 	$page="testimonials";
 	include 'head';
+	error_reporting(E_ALL);
 ?>
 
 
@@ -37,7 +38,8 @@ Coded by :
 	       		</textarea>
 	       	</p>
 	    	<p>
-	    		<input type="submit" value="Submit Testimonial">
+	    		<input type="submit" name="Submit" value="Submit" />
+	    		<input type="reset" name="Submit2" value="Reset" />
 	    	</p>
 	   	 	<input type="hidden" name="status" value="Cat" id="status">
 		</fieldset>
