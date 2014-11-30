@@ -69,7 +69,6 @@ Coded by : Neil Wakely
 <nav>
 <ul>
 <?php
-	$page="index";
 	$menu = array("Index", "Testimonials", "Gallery", "About", "Contact");
 	foreach ($menu as $item) {
 		if ($item == "Contact"){

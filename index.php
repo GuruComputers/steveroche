@@ -1,4 +1,5 @@
 <?php
+	$page="index";
 	include 'head';
 ?>
 
