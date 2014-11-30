@@ -20,7 +20,7 @@
 	echo "Successful";
 	echo "<BR>";
 
-	else {
+	} else {
 	echo "ERROR";
 	}
 	
