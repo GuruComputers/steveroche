@@ -11,43 +11,36 @@ Section : 2
 Coded by : 
 -->
 <div id ="testimonials_content">
-	<table width="400" border="0" align="center" cellpadding="3" cellspacing="0">
-		<tr>
-			<td><strong>Add Testimonial</strong></td>
-		</tr>
-	</table>
-	
-	<table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
-		<tr>
-			<form id="form1" name="form1" method="post" action="add_review.php">
-				<td>
-					<table width="400" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">
-						<tr>
-							<td width="117">Name</td>
-							<td width="14">:</td>
-							<td width="357"><input name="name" type="text" id="name" size="40" /></td>
-						</tr>
-						<tr>
-							<td valign="top">Comment</td>
-							<td valign="top">:</td>
-							<td><textarea name="comment" cols="40" rows="3" id="comment"></textarea></td>
-						</tr>
-						<tr>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td><input type="submit" name="Submit" value="Submit" /> <input type="reset" name="Submit2" value="Reset" /></td>
-						</tr>
-					</table>
-				</td>
-			</form>
-		</tr>
-	</table>
-	
-	<table width="400" border="0" align="center" cellpadding="3" cellspacing="0">
-		<tr>
-			<td><strong><a href="viewguestbook.php">View Guestbook</a> </strong></td>
-		</tr>
-	</table>
+	<form action="add_review.php" method="post" accept-charset="utf-8">
+    	<fieldset><legend>Add Testimonial</legend>
+    		<p>
+    			<label for="name">Your Name</label>
+    			<input type="text" name="name" id="name" />
+    		</p>
+    		<p>
+    			<label>Service Performed</label>
+    			<input type="checkbox" name="roofing" value="1" /> Roofing
+				<input type="checkbox" name="plumbing" value="1" /> Plumbing
+				<input type="checkbox" name="other" value="1" /> Other Works
+    		<p>
+    			<label for="rating">Rating</label>
+    			<input type="radio" name="rating" value="5" /> 5 
+    			<input type="radio" name="rating" value="4" /> 4
+    			<input type="radio" name="rating" value="3" /> 3
+    			<input type="radio" name="rating" value="2" /> 2 
+    			<input type="radio" name="rating" value="1" /> 1
+    		</p>
+    		<p>
+    			<label for="comment">Comment</label>
+    			<textarea name="comment" rows="8" cols="40">
+       			</textarea>
+       		</p>
+    		<p>
+    			<input type="submit" value="Submit Review">
+    		</p>
+    		<input type="hidden" name="status" value="Cat" id="status">
+		</fieldset>
+	</form>
 </div>
 
 

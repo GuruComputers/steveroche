@@ -17,7 +17,7 @@
 
 	$datetime=date("y-m-d h:i:s"); //date time
 
-	$sql = "INSERT INTO live (name, comment, datetime) VALUES ('$_POST[name]', '$_POST[comment]', '$datetime')";
+	$sql = "INSERT INTO approved (roofing, plumbing, other, rating, comment, reviewer_name, review_date, status) VALUES ('$_POST[roofing]','$_POST[plumbing]', '$_POST[other]', '$_POST[rating]', '$_POST[comment]', '$_POST[name]', '$datetime', '$_POST[status]')";
 
 	if ($conn->query($sql) === TRUE) {
     	echo "New record created successfully";
