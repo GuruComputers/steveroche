@@ -38,6 +38,12 @@ Coded by : Neil Wakely
 <link href="http://fonts.googleapis.com/css?family=Lobster|Open+Sans" rel="stylesheet" type="text/cs">
 <link rel="stylesheet" href="./css/main.css">
 <link rel="stylesheet" href="./css/responsive.css">
+<?php
+	if (date('m') == '12') {
+ 		echo "<link rel=\"stylesheet\" href=\"./css/snow.css\">";
+	}
+?>
+<link rel="stylesheet" href="./css/gallery.css">
 <script type="text/javascript" src="./lib/jquery-1.3.2.min.js"></script> <!-- Needed for slideshow -->
 <script type="text/javascript" src="./lib/jquery.tools.js"></script> <!-- Needed for slideshow -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -100,7 +106,21 @@ Section : 2
 Coded by : 
 -->
 <div id ="gallery_content">
-<!-- Page code goes here -->
+	<ul class="gallery_blocks">
+	<?php
+		$FBid = "468113209957335"; // Set the Page ID
+		$fbPhotos_link = "http://graph.facebook.com/497225217046134/photos?fields=source";
+		$fbPhotos = file_get_contents($fbPhotos_link);
+		$obj = json_decode($fbPhotos, true);
+		$photo_count = count($obj["data"]);
+
+		for($x=0; $x<$photo_count; $x++)
+		{
+			$source = $obj["data"][$x]["source"];
+			echo "<li><img src=\"".$source."\"></li>"."\n";
+		}
+	?>
+	</ul>
 </div>
 
 
