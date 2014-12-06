@@ -32,8 +32,7 @@ Coded by :
     		</p>
     		<p>
     			<label for="comment">Comment</label>
-    			<textarea name="comment" rows="8" cols="40">
-       			</textarea>
+    			<textarea name="comment" rows="8" cols="40"></textarea>
        		</p>
     		<p>
     			<input type="submit" value="Submit Review">
@@ -41,6 +40,10 @@ Coded by :
     		<input type="hidden" name="status" value="Cat" id="status">
 		</fieldset>
 	</form>
+    <br /><br />
+    <?php
+        include 'view.php';
+    ?>
 </div>
 
 

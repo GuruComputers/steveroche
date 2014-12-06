@@ -1,7 +1,5 @@
 <?php
 
-	error_reporting(E_ALL);
-
 	$servername = "localhost"; // Host name 
 	$username = "sm-roche"; // Mysql username 
 	$password = "customer31337"; // Mysql password 
