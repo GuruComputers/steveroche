@@ -339,6 +339,41 @@ Date of last update :- 18/11/2014
 }
 
 /************************************************
+TESTIMONIALS
+Testimonials Subpage
+Last updated by :- Dave Wakely
+Date of last update :- 06/12/2014
+************************************************/
+
+#testimonials_content {
+    margin-top: 30x;
+    padding-top: 10px;
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#testimonials_content label {
+    text-align: center;
+    font-weight: 400;
+    font-style: bold;
+    float: left;
+}
+
+.viewer {
+    font-size: 16px;
+    margin-top:10px;
+    width: 500px;
+    padding: 45px 45px 35px 90px;
+    background:url('../img/quotes.png') no-repeat 60px 60px rgba(178,178,169,0.2);
+    min-height:150px;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    border-radius:12px;
+}
+
+/************************************************
 FOOTER
 Section 5
 Last updated by :- Neil Wakely

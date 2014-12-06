@@ -9,22 +9,22 @@
 
 	$conn=mysqli_connect($servername, $username, $password, $db_name);
 
-	if (mysql_connect_errno())
-	{
-		echo "Failed to connect to MySQL: " . mysqli_connect_error();
-	}
+	if (mysqli_connect_errno())
+  		{
+  			echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  		}
 
-	echo "<h3>Test Passed</h3>";
+	echo "<h3>Customer Comments</h3>";
 
-	$sql = "SELECT * from approved";
+	$sql = "SELECT * from approved WHERE status='Dog'";
 
 	$result=mysqli_query($conn, $sql);
 	while($rows=mysqli_fetch_array($result,MYSQLI_ASSOC)){
 ?>
 
-<table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+<table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#FFFFFF">
 <tr>
-<td><table width="400" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">
+<td><table width="400" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF" class="viewer">
 <tr>
 <td>Name</td>
 <td>:</td>
@@ -39,11 +39,6 @@
 <td valign="top">Comment</td>
 <td valign="top">:</td>
 <td><?php echo $rows['comment']; ?></td>
-</tr>
-<tr>
-<td valign="top">Date/Time </td>
-<td valign="top">:</td>
-<td><? echo $rows['datetime']; ?></td>
 </tr>
 </table></td>
 </tr>
