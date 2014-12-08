@@ -374,6 +374,30 @@ Date of last update :- 06/12/2014
 }
 
 /************************************************
+ABOUT
+About Subpage
+Last updated by :- Dave Wakely
+Date of last update :- 08/12/2014
+************************************************/
+
+#about_content {
+    margin-top: 30px;
+}
+
+.profilePic {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+}
+
+#about_content section {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/************************************************
 FOOTER
 Section 5
 Last updated by :- Neil Wakely
