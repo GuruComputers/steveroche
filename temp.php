@@ -1,8 +1,3 @@
-<!--
-FOOTER
-Section : 5
-Coded by : Neil Wakely
--->
 <img src="./img/hr.png" class="hr"> <!-- middle hr rule -->
 <a name="contact"></a>
 <div id ="footer">
@@ -25,38 +20,3 @@ Coded by : Neil Wakely
 		<a href="http://twitter.com/sm_roche" target="_blank">Twitter Page<br/>http://twitter.com/sm_roche</a>
 	</div>
 </div>
-
-
-<!--
-Copyright
-Section : 6
-Coded by : Neil Wakely
--->
-<div id="copyright">
-<img src="./img/hr.png" class="hr"> <!-- bottom hr rule -->
-<?php
-	$start=2014;
-	$current=date("Y");
-	$cy="";
-	if ($current=$start) {
-		$cy=$start;
-	}
-	if ($current>$start) {
-		$cy=$start."-".$current;
-	}
-?>
-<p><a href="#top"><img src="./img/top.png" class="toparrow"></a></p>
-<p>Designed & Hosted by <a href="http://gurucomputers.co.uk" alt="guru computers ltd website" id="guru" target="_blank">Guru Computers Ltd.</a></p>
-<?php
-	echo "&copy"." ".$cy." S.M. Roche"."\n";
-?>
-</div>
-
-
-<!--
-End of normal HTML code to close of page echoed out
-Coded by : Neil Wakely
--->
-</div>
-</body>
-</html>
