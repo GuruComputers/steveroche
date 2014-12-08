@@ -399,6 +399,26 @@ Date of last update :- 08/12/2014
 }
 
 /************************************************
+GALLERY
+Gallery Subpage
+Last updated by :- Dave Wakely
+Date of last update :- 06/12/2014
+************************************************/
+.gallery_blocks li{
+    height: auto;
+    width: auto;
+    float: left;
+    list-style: none;
+}
+
+.gallery_blocks li img{
+    display: block;
+    margin: 5px 3px;
+    height: auto;
+    width: 280px;
+}
+
+/************************************************
 FOOTER
 Section 5
 Last updated by :- Neil Wakely
