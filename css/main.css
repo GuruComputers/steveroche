@@ -403,6 +403,30 @@ Section 5
 Last updated by :- Neil Wakely
 Date of last update :- 13/11/2014
 ************************************************/
+.box_content_l {
+    float: left;
+    width: 200px;
+    height: 90px;
+    border: 1px solid #585858;
+    padding: 15px 15px 15px 15px;
+}
+
+.box_content_c {
+    float: left;
+    width: 200px;
+    height: 90px;
+    border: 1px solid #585858;
+    padding: 15px 15px 15px 15px;
+}
+
+.box_content_r {
+    float: left;
+    width: 200px;
+    height: 90px;
+    border: 1px solid #585858;
+    padding: 15px 15px 15px 15px;
+}
+
 #footer {
 	width: 100%;
 	padding-bottom: 10px;
