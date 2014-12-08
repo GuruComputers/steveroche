@@ -430,7 +430,9 @@ Date of last update :- 13/11/2014
     height: 90px;
     border-radius: 10px;
     border: 1px solid #585858;
-    padding: 15px 15px 15px 15px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 10px;
+    margin-right: 5px;
 }
 
 .box_content_c {
@@ -439,7 +441,9 @@ Date of last update :- 13/11/2014
     height: 90px;
     border-radius: 10px;
     border: 1px solid #585858;
-    padding: 15px 15px 15px 15px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .box_content_r {
@@ -448,7 +452,9 @@ Date of last update :- 13/11/2014
     height: 90px;
     border-radius: 10px;
     border: 1px solid #585858;
-    padding: 15px 15px 15px 15px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 5px;
+    margin-right: 10px;
 }
 
 #footer {
