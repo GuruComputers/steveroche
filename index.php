@@ -1,15 +1,6 @@
 <?php
 	$page="index";
 	include 'head';
-?>
-
-
-<!--
-Facebook Image Slider
-Section : 2
-Coded by : Dave Wakely
--->
-<?php
 	echo '<div id ="slideshow">';
 	$FBid = "468113209957335"; // Set the Page ID
 	$fbPhotos_link = "http://graph.facebook.com/497225217046134/photos?fields=source";
@@ -38,18 +29,6 @@ Coded by : Dave Wakely
 -->
 <?php
 	include("3.php"); // <!-- Content menu -->
-?>
-
-
-<!--
-NEWS & CUSTOMER TESTIMONIALS 
-Section : 4
-Coded by : Dave Wakely
--->
-<?php
 	include("4.php"); // <!-- News & Customer Testimonials -->
-?>
-
-<?php
 	include 'foot';
 ?>
