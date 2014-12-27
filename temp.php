@@ -1,4 +1,4 @@
-<img src="./img/hr.png" class="hr"> <!-- middle hr rule -->
+<img src="./img/hr.png" class="hr" alt="hr"> <!-- middle hr rule -->
 <a name="contact"></a>
 <center>
 	<div id ="footer">

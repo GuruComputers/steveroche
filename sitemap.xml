@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- sitemap-generator-url="http://www.auditmypc.com/free-sitemap-generator.asp" -->
+<!-- This sitemap was created using the free tool found here: http://www.auditmypc.com/free-sitemap-generator.asp -->
+<!-- Audit My PC also offers free security tools to help keep you safe during internet travels -->
+<urlset 
+		xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+		http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+<url>
+    <loc>http://www.sm-roche.co.uk</loc>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/./css/normalize.css</loc>
+    <lastmod>2014-12-27T12:34:01+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/./css/main.css</loc>
+    <lastmod>2014-12-27T12:34:01+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/./css/snow.css</loc>
+    <lastmod>2014-12-27T12:34:01+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/index.php</loc>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/./img/logo.png</loc>
+    <lastmod>2014-12-27T12:34:02+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/./</loc>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/testimonials.php</loc>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/gallery.php</loc>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/about.php</loc>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/./img/hr.png</loc>
+    <lastmod>2014-12-27T12:34:02+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/img/plumbing.png</loc>
+    <lastmod>2014-12-27T12:34:02+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/img/roofing.png</loc>
+    <lastmod>2014-12-27T12:34:02+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/img/aworks.png</loc>
+    <lastmod>2014-12-27T12:34:01+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/img/speech.gif</loc>
+    <lastmod>2014-12-27T12:34:03+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/./img/top.png</loc>
+    <lastmod>2014-12-27T12:34:03+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/css/normalize.css</loc>
+    <lastmod>2014-12-27T12:34:01+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/css/main.css</loc>
+    <lastmod>2014-12-27T12:34:01+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/css/snow.css</loc>
+    <lastmod>2014-12-27T12:34:01+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/img/logo.png</loc>
+    <lastmod>2014-12-27T12:34:02+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/</loc>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/img/hr.png</loc>
+    <lastmod>2014-12-27T12:34:02+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/img/top.png</loc>
+    <lastmod>2014-12-27T12:34:03+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.sm-roche.co.uk/img/me.jpg</loc>
+    <lastmod>2014-12-27T12:34:02+00:00</lastmod>
+</url>
+</urlset>

@@ -47,7 +47,7 @@ Coded by : Neil Wakely
 		$cy=$start."-".$current;
 	}
 ?>
-<p><a href="#top"><img src="./img/top.png" class="toparrow"></a></p>
+<p><a href="#top"><img src="./img/top.png" class="toparrow" alt="Top Arrow"></a></p>
 <p>Designed & Hosted by <a href="http://gurucomputers.co.uk" alt="guru computers ltd website" id="guru" target="_blank">Guru Computers Ltd.</a></p>
 <?php
 	echo "&copy"." ".$cy." S.M. Roche"."\n";

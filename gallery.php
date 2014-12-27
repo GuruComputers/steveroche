@@ -21,7 +21,7 @@ Coded by :
 		for($x=0; $x<$photo_count; $x++)
 		{
 			$source = $obj["data"][$x]["source"];
-			echo "<li><img src=\"".$source."\"></li>"."\n";
+			echo "<li><img src=\"".$source."\" alt=\"gallery image\"></li>"."\n";
 		}
 	?>
 	</ul>

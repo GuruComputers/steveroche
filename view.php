@@ -33,7 +33,7 @@
 <tr>
 <td width="117">Rating</td>
 <td width="14">:</td>
-<td width="357"><? echo $rows['rating']; ?> / 5</td>
+<td width="357"><?php echo $rows['rating']; ?> / 5</td>
 </tr>
 <tr>
 <td valign="top">Comment</td>

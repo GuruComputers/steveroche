@@ -12,13 +12,13 @@
 	for($x=0; $x<$photo_count; $x++){
 		echo "<li>";
 		$source = $obj["data"][$x]["source"];
-		echo "<img src=\"".$source."\">"."\n";
+		echo "<img src=\"".$source."\" alt=\"Gallery Iamge\">"."\n";
 		echo "</li>"."\n";
 	}
 	echo '</ul>';
 	echo '</div>';
 ?>
-<img src="./img/hr.png" class="hr"> <!-- middle hr rule -->
+<img src="./img/hr.png" class="hr" alt="hr"> <!-- middle hr rule -->
 <div id="content">
     <div>
         <div style="float:left; width: 250px; padding-left: 5px">
@@ -37,20 +37,20 @@
                 	<div class="box" align="center">
                     	<span class="span-content">Plumbing Services</span>
                         <div style="height:10px"></div>
-                  <img src="img/plumbing.png" alt="" /></div>
+                  <img src="img/plumbing.png" alt="Plumbing Services" /></div>
                   <div style="height:10px; width: 23px; float:left"></div>
 
                     <div class="box" align="center">
                     	<span class="span-content">Roofing Services</span> <br />
                     	<div style="height:10px"></div>
-                        <img src="img/roofing.png" alt="" />
+                        <img src="img/roofing.png" alt="Roofing Services" />
                   </div>
 
                   <div style="height:10px; width: 23px; float:left"></div>
                     <div class="box" align="center">
                     	<span class="span-content">Associated Works</span>
                     	<div style="height:10px"></div>
-                        <img src="img/aworks.png" alt="" />
+                        <img src="img/aworks.png" alt="Associated Works" />
                     </div>
 
                     <div style="clear: both;"></div>
@@ -83,7 +83,7 @@
         </span></div>
         <div style="float: left; width: 21px; height:10px;"></div>
         <div style="float: right; width: 500px; padding-right: 5%;">
-        	<img src="img/speech.gif" class="img_l" alt="" />
+        	<img src="img/speech.gif" class="img_l" alt="Testimonials" />
             <div style="clear: both;"></div>
             <span class="span-content">
             <div id="testimonials">
